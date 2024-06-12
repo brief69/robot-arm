@@ -3,4 +3,7 @@ builds:
   default:
     entry: elec/src/robot-arm.ato:RobotArm
 dependencies:
-- generics
+- name: generics
+  version_spec: '@09ad6baeaab93d53b9b6c90069ac750f4161d76f'
+  link_broken: true
+  path: elec/src/generics
