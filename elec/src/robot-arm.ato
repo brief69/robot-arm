@@ -1,0 +1,2 @@
+module RobotArm:
+    signal gnd
