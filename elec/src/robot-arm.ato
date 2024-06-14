@@ -60,16 +60,3 @@ module RobotArm:
     joint1_motor.output ~ joint1_sensor.input
     joint2_motor.output ~ joint2_sensor.input
     end_effector_motor.output ~ end_effector_sensor.input
-
-    # サーボモータの制御アルゴリズムを追加
-    def control_servo_motor(self, angle):
-        # サーボモータを指定の角度に動かすコード
-        pass
-    # センサデータの処理関数を追加
-    def process_sensor_data(self, sensor_data):
-        # センサデータを解析し、必要な動作を計算するコード
-        pass
-    # 動作生成アルゴリズムを追加
-    def generate_motion(self, object_position):
-        # 物体の位置に基づいて動作を生成するコード
-        pass
